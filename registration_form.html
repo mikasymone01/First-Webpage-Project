@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="registration_form.css" />
+  </head>
+  <body>
+    <div class="menu">
+      <div class="menu-button">
+        <a href="index.html">HOME </a>
+      </div>
+      <div class="menu-button">
+        <a href="sign_in_form.html"> SIGN IN </a>
+      </div>
+    </div>
+    <form>
+      <div class="form_body">
+        <h1>Customer Registration</h1>
+        <h2>Thank you for choosing us!</h2>
+        <hr />
+
+        <label for="name">Name</label><br />
+        <input type="text" name="first_name" id="first_name" size="60" />
+        <input type="text" name="last_name" id="last_name" size="60" /> <br />
+        <label for="first_name" class="sub_label">First Name</label>
+        <label for="last_name" class="sub_label"> Last Name</label><br />
+
+        <label for="email">Email</label><br />
+        <input type="email" name="email" id="email" size="60" /><br />
+        <label for="email" class="sub_label">example@example.com</label><br />
+
+        <label for="address">Address</label><br />
+        <input
+          type="text"
+          name="street_address"
+          id="street_address"
+          size="135"
+        /><br />
+        <label for="street_address" class="sub_label">Street Address</label
+        ><br />
+        <input
+          type="text"
+          name="street_address_2"
+          id="street_address_2"
+          size="135"
+        /><br />
+        <label for="street_address" class="sub_label"
+          >Street Address Line 2</label
+        ><br />
+        <input type="text" name="city" id="city" size="60" />
+        <input type="text" name="state" id="state" size="60" />
+        <label for="city" class="sub_label">City</label>
+        <label for="state" class="sub_label">State / Province</label><br />
+        <input
+          type="text"
+          name="street_address"
+          id="address"
+          size="135"
+        /><br />
+        <label for="street_address" class="sub_label">Postal / Zip Code</label
+        ><br />
+
+        <label for="review_table">Overall satisfaction of service</label>
+        <table name="review_table">
+          <tr>
+            <th id="blank"></th>
+            <th>Very Satisfied</th>
+            <th>Satisfied</th>
+            <th>Neutral</th>
+            <th>Unsatisfied</th>
+            <th>Very Unsatisfied</th>
+          </tr>
+          <tr>
+            <th>Friendliness</th>
+            <td>
+              <input type="radio" name="friendliness_vs" class="table_option" />
+            </td>
+            <td>
+              <input type="radio" name="friendliness_s" class="table_option" />
+            </td>
+            <td>
+              <input type="radio" name="friendliness_n" class="table_option" />
+            </td>
+            <td>
+              <input type="radio" name="friendliness_us" class="table_option" />
+            </td>
+            <td>
+              <input
+                type="radio"
+                name="friendliness_vus"
+                class="table_option"
+              />
+            </td>
+          </tr>
+          <tr>
+            <th>Knowledge</th>
+            <td>
+              <input
+                type="radio"
+                name="knowledge_vs"
+                id="knowledge_vs"
+                class="table_option"
+              />
+            </td>
+            <td>
+              <input
+                type="radio"
+                name="knowledge_s"
+                id="knowledge_s"
+                class="table_option"
+              />
+            </td>
+            <td>
+              <input
+                type="radio"
+                name="knowledge_n"
+                id="knowledge_n"
+                class="table_option"
+              />
+            </td>
+            <td>
+              <input
+                type="radio"
+                name="knowledge_us"
+                id="knowledge_us"
+                class="table_option"
+              />
+            </td>
+            <td>
+              <input
+                type="radio"
+                name="knowledge_vus"
+                id="knowledge_vus"
+                class="table_option"
+              />
+            </td>
+          </tr>
+          <tr>
+            <th>Quickness</th>
+            <td>
+              <input type="radio" name="quickness_vs" class="table_option" />
+            </td>
+            <td>
+              <input type="radio" name="quickness_s" class="table_option" />
+            </td>
+            <td>
+              <input type="radio" name="quickness_n" class="table_option" />
+            </td>
+            <td>
+              <input type="radio" name="quickness_us" class="table_option" />
+            </td>
+            <td>
+              <input type="radio" name="quickness_vus" class="table_option" />
+            </td>
+          </tr>
+        </table>
+        <br />
+        <label for="improvement">How can we improve our service?</label><br />
+        <textarea
+          name="improvement"
+          id="improvement"
+          cols="30"
+          rows="10"
+          placeholder="Type here..."
+        ></textarea
+        ><br />
+        <hr />
+
+        <button type="submit" id="submit_button">Submit</button>
+      </div>
+    </form>
+    <script src="registration_form.js"></script>
+  </body>
+</html>

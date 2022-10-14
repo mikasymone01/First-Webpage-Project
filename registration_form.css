@@ -1,0 +1,145 @@
+body {
+  background-color: rgb(225, 229, 250);
+  margin-top: 0;
+}
+h1 {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+h2 {
+  color: gray;
+  margin-bottom: 40px;
+  margin-top: 0;
+}
+label {
+  display: inline-block;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.sub_label {
+  color: gray;
+  font-size: 15px;
+  margin-right: 315px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 5px;
+  height: 40px;
+  width: 200px;
+}
+input {
+  padding: 10px;
+  margin-top: 20px;
+  margin-right: 40px;
+  margin-bottom: 5px;
+  border-color: #ced4da;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 3px;
+}
+input:focus {
+  border-color: #949ea8;
+  outline: 0 solid #949ea8;
+}
+
+table {
+  margin-top: 20px;
+  width: 86%;
+  text-align: center;
+  border-collapse: collapse;
+}
+#blank {
+  border: solid transparent;
+  background-color: #f5f5f5;
+}
+th {
+  background-color: #ccdae6;
+}
+th,
+tr,
+td {
+  border: 2px solid #a4b2bd;
+  height: 40px;
+  border-radius: 5px;
+}
+td {
+  padding-left: 25px;
+  padding-bottom: 10px;
+}
+.table_option {
+  height: 25px;
+  width: 25px;
+}
+#improvement {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 200px;
+  width: 86%;
+  font-size: 25px;
+  color: #303131;
+}
+
+#submit_button {
+  height: 60px;
+  width: 230px;
+  font-size: 25px;
+  margin-left: 450px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: solid transparent;
+  border-radius: 5px;
+  background-color: rgb(72, 185, 91);
+  color: white;
+}
+#submit_button:hover {
+  background-color: rgb(65, 150, 79);
+}
+.form_body {
+  background-color: #f5f5f5;
+  margin-top: 2%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 2%;
+  padding: 20px;
+  padding-left: 80px;
+  padding-right: 90px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.menu {
+  position: relative;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  background-color: rgba(47, 182, 175, 0.7);
+  border: solid transparent;
+  border-top: 0;
+  border-color: rgba(0, 0, 0, 0.4);
+}
+.menu-button {
+  width: 200px;
+  height: 40px;
+  background-color: rgba(47, 182, 175, 0);
+  border: solid transparent;
+  padding-top: 10px;
+  font-size: 25px;
+  text-align: center;
+  text-shadow: 2px 2px rgba(10, 63, 63, 0.3);
+}
+.menu-button:hover {
+  border: solid transparent;
+  border-color: rgba(0, 0, 0, 0.4);
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: aliceblue;
+}
